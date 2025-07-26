@@ -14,3 +14,7 @@ class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         return sorted(s) == sorted(t)
 """
+"""
+也可以直接用Counter： cs = Counter(s)
+Counter：统计每个元素出现的次数
+"""
